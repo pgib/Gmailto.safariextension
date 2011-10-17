@@ -39,7 +39,7 @@ for (var i = 0; i < links.length; i++)
 		
 		
 		links[i].target = "_blank";
-		links[i].href="http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=" + escape(links[i].href.substring(7, endIndex)) + "&su=" + subject + "&body=" + body;
+		links[i].href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=" + escape(links[i].href.substring(7, endIndex)) + "&su=" + subject + "&body=" + body;
 	}
 }
 
